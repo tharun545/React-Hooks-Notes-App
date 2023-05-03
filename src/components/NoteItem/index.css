@@ -1,0 +1,17 @@
+.list-item {
+  border: 1px #d8d8d8 solid;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+  list-style-type: none;
+}
+
+.title {
+  color: #475569;
+  font-weight: 600;
+}
+.note {
+  color: #475569;
+  font-weight: normal;
+}

@@ -1,0 +1,83 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.main-heading {
+  color: #4c63b6;
+  font-family: 'Bree Serif';
+  font-weight: normal;
+}
+
+.form-controller {
+  box-shadow: 5px 10px 5px 10px #d8d8d8;
+  height: 225px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 5px;
+  width: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-title {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  border: 0;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+.note-text-area {
+  color: #334155;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  outline: none;
+  border: 0;
+}
+
+.add-button {
+  background-color: #4c63b6;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 70px;
+  height: 40px;
+  border: 0;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  margin-top: 50px;
+}
+
+.empty-note-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.para {
+  margin-top: 10px;
+  color: #475569;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 10px;
+}
